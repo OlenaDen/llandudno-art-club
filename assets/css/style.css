@@ -1,115 +1,110 @@
+/* Styling the header */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
 
-     
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    margin: 0;
-    background-color: #E1F8D4;
-    padding: 10px 80px;
-        
-      }
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  background-color: #E1F8D4;
+  background: url("../images/lime.jpg") no-repeat; 
+  padding: 10px 80px;
+}
 
- /* Styling the header */
+/* Styling the header */
 
 h1 {
-    color: #484738;
-    text-align: center;
-    font-size: 40px;
-    font-family: cursive;
-} 
+  color: #d9912f;
+  text-align: center;
+  font: 60px cursive;
+}
 
-  .text-center {
-    text-align: center;
-      }
+/* Styling the navigation */
 
-   /* Styling the navigation */
+a:hover {
+  text-decoration: none;
+  color: orange;
+}
 
-    a:hover {
-    text-decoration: none;
-    color: orange;
-      }
+#menu {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 80px;
+}
 
-           
-  nav div a {
-    margin: 5px;
-      }
+br {
+  content: "A" !important;
+  display: block !important;
+  margin-bottom: 1.5em !important;
+}
 
-  #menu {        
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 80px; 
-        
-        
-        
-      }
+br ~ a {
+  font-size: large;
+  color: #d9912f;
+}
 
-  br   { 
-    content: "A" !important;
-    display: block !important;
-    margin-bottom: 1.5em !important; 
-        }
+/* Styling the main section */
 
-  br ~ a {
-    font-size: large;
-    color: #d9912f;
-                       
-      }
-      
-  .bold {
-    font-weight: bold;
-    font-size: large;
-    font-family: cursive;
-      }
+hr ~ p {  
+  font-weight: bold;
+  font-size: 20px;   
+  text-align: center;
+}
 
-  h2 {
-    color: #484738;
-    background-color: #7cf559;
-    text-decoration: underline;
-    font-family: cursive;
-      }  
-          
-  h2 ~ p {
-    color: #484738;
-    font-weight: 600;
-        
-      }
+h2 {
+  color: #d9912f;  
+  text-decoration: underline;
+  font-family: cursive;
+}
 
-  .timetable {
-    width: 33%;
-    color: inherit;
-    font-weight: 600;
-      }
-      
-      /* Styling the footer */
+h2 ~ p {
+  color: #484738;    
+  font-size: large;  
+}
 
-      
+.timetable {
+  width: 33%;
+  color: inherit;
+  font-weight: 600;
+}
 
-  footer {
-    background-color: silver;
-    text-align: center;
-    padding: 2em;
-       
-      }
+/* Styling the footer */
 
-  footer > strong {
-		color: #484738;
-		text-decoration: none;      			
-		}
+footer {
+  background-color: silver;
+  text-align: center;
+  padding: 2em;
+}
 
-  
-    /* Styling the form */
+footer>strong {
+  color: #484738;
+  text-decoration: none;
+}
 
-  form {
-      width: 500px;
-      padding-top: 40px;
-      
-    }
 
-     button [type=submit]{			
-			color: #ffffff;}
+/* Styling the form */
 
-    input:focus {
-            background-color: #bdb9ae;
-    }
+form {
+  width: 500px;
+  padding-top: 40px;
+}
+
+button[type=submit] {
+  color: #484738;
+  background-color: #d6d92f70;
+  padding: 0 15px;
+  margin: 5px;
+  display: block;
+  font-size: medium;
+}
+
+input[type=reset] {
+  padding: 0 5px;
+  margin: 5px;
+  display: block;
+}
+
+input:focus {
+  background-color: #bdb9ae;  
+}
