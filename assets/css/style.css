@@ -6,16 +6,20 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   margin: 0;
   background-color: #E1F8D4;
-  background: url("../images/lime.jpg") no-repeat; 
+  background: url("../images/light-lime.jpg") repeat;
   padding: 10px 80px;
 }
 
 /* Styling the header */
+header {
+  top: 10%;
+}
 
 h1 {
   color: #d9912f;
   text-align: center;
   font: 60px cursive;
+  font-weight: bold;
 }
 
 /* Styling the navigation */
@@ -25,8 +29,11 @@ a:hover {
   color: orange;
 }
 
+div>a {
+  color: hsl(35, 71%, 25%);
+}
+
 #menu {
-  background-color: white;
   padding: 20px;
   text-align: center;
   font-weight: bold;
@@ -39,28 +46,32 @@ br {
   margin-bottom: 1.5em !important;
 }
 
-br ~ a {
+br~a {
   font-size: large;
-  color: #d9912f;
+  font-weight: bold;
 }
 
 /* Styling the main section */
 
-hr ~ p {  
+hr {
+  visibility: hidden;
+}
+
+hr~p {
   font-weight: bold;
-  font-size: 20px;   
+  font-size: 20px;
   text-align: center;
 }
 
 h2 {
-  color: #d9912f;  
+  color: #d9912f;
   text-decoration: underline;
   font-family: cursive;
 }
 
-h2 ~ p {
-  color: #484738;    
-  font-size: large;  
+h2~p {
+  color: #484738;
+  font-size: 20px;
 }
 
 .timetable {
@@ -69,12 +80,25 @@ h2 ~ p {
   font-weight: 600;
 }
 
+/* Styling the map */
+
+iframe {
+  width: 100%;
+  border: none;
+}
+
+
 /* Styling the footer */
 
 footer {
   background-color: silver;
+  padding: 1em;
   text-align: center;
-  padding: 2em;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
 }
 
 footer>strong {
@@ -106,5 +130,5 @@ input[type=reset] {
 }
 
 input:focus {
-  background-color: #bdb9ae;  
+  background-color: #bdb9ae;
 }
