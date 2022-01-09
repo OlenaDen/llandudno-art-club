@@ -1,4 +1,4 @@
-/* Styling the header */
+/* Styling the body */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
 
@@ -11,9 +11,6 @@ body {
 }
 
 /* Styling the header */
-header {
-  top: 10%;
-}
 
 h1 {
   color: #d9912f;
@@ -37,7 +34,11 @@ div>a {
   padding: 20px;
   text-align: center;
   font-weight: bold;
-  border-radius: 80px;
+}
+
+#image {
+  background-position: center;
+  
 }
 
 br {
@@ -46,7 +47,7 @@ br {
   margin-bottom: 1.5em !important;
 }
 
-br~a {
+b r~a {
   font-size: large;
   font-weight: bold;
 }
@@ -106,7 +107,6 @@ footer>strong {
   text-decoration: none;
 }
 
-
 /* Styling the form */
 
 form {
@@ -131,4 +131,16 @@ input[type=reset] {
 
 input:focus {
   background-color: #bdb9ae;
+}
+
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+#photo img {
+  width: 100%;
 }
