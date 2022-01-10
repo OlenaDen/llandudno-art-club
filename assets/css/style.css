@@ -5,12 +5,13 @@
 body {
   font-family: 'Roboto', Arial, sans-serif;
   margin: 0;
+  padding: 0;
   background-color: #E1F8D4;
-  background: url("../images/light-lime.jpg") repeat;
-  padding: 10px 80px;
+  background: url("../images/light-lime.jpg") repeat;  
 }
 
 /* Styling the header */
+
 
 h1 {
   color: #d9912f;
@@ -30,14 +31,16 @@ div>a {
   color: hsl(35, 71%, 25%);
 }
 
-#menu {
-  padding: 20px;
+#menu {  
   text-align: center;
   font-weight: bold;
+  font-size: 20px;
 }
 
-#image {
+#image img {
   background-position: center;
+  width: 15%;
+  height: auto;
   
 }
 
@@ -53,6 +56,10 @@ b r~a {
 }
 
 /* Styling the main section */
+
+section {
+  padding: 30px 80px 40px;
+}
 
 hr {
   visibility: hidden;
@@ -86,6 +93,8 @@ h2~p {
 iframe {
   width: 100%;
   border: none;
+  height: 600px;
+  padding: 30px 0 66px;
 }
 
 
@@ -93,18 +102,30 @@ iframe {
 
 footer {
   background-color: silver;
-  padding: 1em;
+  height: 40px;
+  padding: 15px;
   text-align: center;
   width: 100%;
   position: fixed;
   bottom: 0;
   right: 0;
   z-index: 3;
+  
 }
 
 footer>strong {
   color: #484738;
   text-decoration: none;
+}
+
+footer>p {
+  display: inline-block;
+  
+}
+
+.social-media a {
+  color: #484738;
+  padding-right: 20px;
 }
 
 /* Styling the form */
@@ -133,12 +154,14 @@ input:focus {
   background-color: #bdb9ae;
 }
 
+/* Styling the gallery */
+
 #photo {
   clear: both;
   line-height: 0;
-  column-count: 2;
+  column-count: 3;
   column-gap: 10px;
-  row-gap: 10px;
+  row-gap: 10px;  
 }
 
 #photo img {
