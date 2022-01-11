@@ -61,29 +61,20 @@ br~a {
 
 /* Styling the main section */
 
-section {
-  padding: 30px 80px 40px;
-}
-
 hr {
   visibility: hidden;
-}
-
-hr~p {
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
 }
 
 .text-center {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  color: hsl(35, 71%, 25%);
+  color: rgb(190, 143, 76);
 }
 
 section {
   padding: 30px 80px 40px;
+  font-weight: 600;
 }
 
 h2 {
@@ -95,12 +86,6 @@ h2 {
 h2~p {
   color: #484738;
   font-size: 20px;
-}
-
-.timetable {
-  width: 33%;
-  color: inherit;
-  font-weight: 600;
 }
 
 /* Styling the map */
@@ -153,8 +138,8 @@ footer>p {
   clear: both;
   line-height: 0;
   column-count: 3;
-  column-gap: 10px;
-  row-gap: 10px;
+  column-gap: 10px;  
+  padding: 10px;  
 }
 
 #photo img {
@@ -165,7 +150,7 @@ footer>p {
 
 form {
   width: 500px;
-  padding-top: 40px;
+  padding: 40px;
 }
 
 legend {
