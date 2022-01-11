@@ -7,13 +7,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #E1F8D4;
-  background: url("../images/light-lime.jpg") repeat;  
+  background: url("../images/light-lime.jpg") repeat;
 }
 
 /* Styling the header */
 
 header {
-  background-color: #99ee9191;  
+  background-color: #99ee9191;
 }
 
 h1 {
@@ -35,19 +35,17 @@ div>a {
   color: hsl(35, 71%, 25%);
 }
 
-#menu {  
+#menu {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
   padding: 20px 0 40px;
 }
 
-#image img {  
-  width: 30%;
+#image img {
+  width: 100%;
   height: auto;
-  background-position: center;
-  margin: 0 auto;
-  
+  text-align: center;
 }
 
 br {
@@ -56,7 +54,7 @@ br {
   margin-bottom: 1.5em !important;
 }
 
-b r~a {
+br~a {
   font-size: large;
   font-weight: bold;
 }
@@ -81,7 +79,7 @@ hr~p {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  color: hsl(35, 71%, 25%);  
+  color: hsl(35, 71%, 25%);
 }
 
 section {
@@ -127,7 +125,7 @@ footer {
   bottom: 0;
   right: 0;
   z-index: 3;
-  
+
 }
 
 footer>strong {
@@ -137,12 +135,30 @@ footer>strong {
 
 footer>p {
   display: inline-block;
-  
+
 }
 
 .social-media a {
   color: #484738;
   padding-right: 20px;
+}
+
+/* Styling the gallery */
+
+.art {
+  text-align: center;
+}
+
+#photo {
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+#photo img {
+  width: 100%;
 }
 
 /* Styling the form */
@@ -151,6 +167,12 @@ form {
   width: 500px;
   padding-top: 40px;
 }
+
+legend {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 
 button[type=submit] {
   color: #484738;
@@ -169,18 +191,4 @@ input[type=reset] {
 
 input:focus {
   background-color: #bdb9ae;
-}
-
-/* Styling the gallery */
-
-#photo {
-  clear: both;
-  line-height: 0;
-  column-count: 3;
-  column-gap: 10px;
-  row-gap: 10px;  
-}
-
-#photo img {
-  width: 100%;
 }
