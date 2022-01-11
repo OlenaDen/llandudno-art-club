@@ -12,12 +12,16 @@ body {
 
 /* Styling the header */
 
+header {
+  background-color: #99ee9191;  
+}
 
 h1 {
   color: #d9912f;
   text-align: center;
   font: 60px cursive;
   font-weight: bold;
+  margin: 0;
 }
 
 /* Styling the navigation */
@@ -35,12 +39,14 @@ div>a {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+  padding: 20px 0 40px;
 }
 
-#image img {
-  background-position: center;
-  width: 15%;
+#image img {  
+  width: 30%;
   height: auto;
+  background-position: center;
+  margin: 0 auto;
   
 }
 
@@ -69,6 +75,17 @@ hr~p {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+}
+
+.text-center {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: hsl(35, 71%, 25%);  
+}
+
+section {
+  padding: 30px 80px 40px;
 }
 
 h2 {
