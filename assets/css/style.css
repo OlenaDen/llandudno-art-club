@@ -61,10 +61,6 @@ br~a {
 
 /* Styling the main section */
 
-hr {
-  visibility: hidden;
-}
-
 .text-center {
   font-weight: bold;
   font-size: 20px;
@@ -177,3 +173,18 @@ input[type=reset] {
 input:focus {
   background-color: #bdb9ae;
 }
+
+@media(max-width: 600px) {  
+  #menu, .text-center {
+    padding: 20px;
+  }
+  
+  h1 {
+    padding: 5px;
+  }    
+  
+  section {        
+    width: 80%; 
+    padding: 30px;
+    margin: 0;    
+  }
