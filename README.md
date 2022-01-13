@@ -2,19 +2,26 @@
 
 Llandudno Art Club website is designed to attract people of different ages interested in art. The club is situated in Llandudno, North Wales. It offers art classes to children of different age groups as well as adults and individual lessons. The classes are held in Craig y Don community centre. 
 
-The club also offers various birthday party packages with the art theme (paintig, drawing, sculpture, arts and crafts). The birthday parties are held either in the community centre or at the venue of the customer's choice.   
+The club also offers various birthday party packages with an art theme (painting, drawing, sculpture, arts and crafts). Birthday parties are held either in the community centre or at the venue of the customers' choice.   
 
 ![Responsive Mockup](assets/images/light-lime.jpg)
 
 ## Wireframes
 
-index.html
+index.html 
 
-![Index Wireframe](documentation/wireframes/wireframe-index.png)
+![Index Wireframe](documentation/wireframes/home-page.png)
+
+gallery.html 
+
+![Index Wireframe](documentation/wireframes/gallery-page.png)
+
+form.html 
+
+![Index Wireframe](documentation/wireframes/contact-page.png)
+
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
@@ -26,9 +33,9 @@ In this section, you should go over the different parts of your project, and des
 
 - __The landing page image__
 
-  - The landing page offeres the choice of art classes available at the Llandudno Club.
+  - The landing page offers the choice of art classes available at the Llandudno Club.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](documentation/testing/landing-page.jpg)
 
 - __Timetable Section__
 
@@ -55,11 +62,9 @@ In this section, you should go over the different parts of your project, and des
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __The Contact Page__
+- __The Contact Page__  
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-  On the Contact page the users can submit their name and email address; select the classes the users are interested in.
+  On the Contact page the users can submit their name and email address and select the classes in which they are interested.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
@@ -70,8 +75,9 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Features Left to Implement
 
 - Pricing for the classes and birthday parties will be included soon.
-- The club also has an idea for the future is to sell their members (children and adults) art.
+- The club also has an idea for the future to sell art created by the members (children and adults).
 - Separate page for the members to log in and view photos, club members events, blogs.
+- Bi-lingual English/Welsh
 
 ## Testing 
 
@@ -115,14 +121,18 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
+- The content for the Home page is made up.
+The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the navigation bar and the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+- Love Running README boilerplate was used for the README
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photo used on the Home page is taken from https://pixabay.com/photos/painting-pencils-paint-pens-911804/
+- The background image used on all three pages is taken from https://pixabay.com/illustrations/background-texture-abstract-art-6556409/. The image was modified to slightly lighter version.
+- The images used for the Gallery page are the author's children's and friends' creations.
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
