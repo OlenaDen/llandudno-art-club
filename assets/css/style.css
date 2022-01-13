@@ -19,8 +19,9 @@ header {
 h1 {
   color: #d9912f;
   text-align: center;
-  font: 60px cursive;
+  font: 40px;
   font-weight: bold;
+  padding-top: 10px;
   margin: 0;
 }
 
@@ -39,14 +40,15 @@ div>a {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  padding: 20px 0 40px;
+  padding: 20px 40px 40px;
+  margin: 0 60px 0;
 }
 
-#image img {
-  width: 100%;
-  height: auto;
-  text-align: center;
+#menu a {
+  margin-right: 10px;
+  display: inline-block;
 }
+
 
 br {
   content: "A" !important;
@@ -61,11 +63,20 @@ br~a {
 
 /* Styling the main section */
 
+
+
 .text-center {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
   color: rgb(190, 143, 76);
+  padding: 20px;
+}
+
+#image img {
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 section {
@@ -106,7 +117,6 @@ footer {
   bottom: 0;
   right: 0;
   z-index: 3;
-
 }
 
 footer>strong {
@@ -116,7 +126,6 @@ footer>strong {
 
 footer>p {
   display: inline-block;
-
 }
 
 .social-media a {
@@ -134,57 +143,79 @@ footer>p {
   clear: both;
   line-height: 0;
   column-count: 3;
-  column-gap: 10px;  
-  padding: 10px;  
+  column-gap: 10px;
 }
 
+/*
+.picture-border{
+  border: solid red 10px;
+  
+  
+}
+*/
 #photo img {
   width: 100%;
+  margin: 1em auto;
 }
 
 /* Styling the form */
 
 form {
-  width: 500px;
-  padding: 40px;
+  width: 280px;
+  padding: 20px;
+  background-color: #f5f3838f;
+  background-size: auto;
+  background-position: center;
+  margin: 0 auto;
 }
 
-legend {
-  font-weight: bold;
-  font-size: 18px;
-}
 
+
+
+.block {
+  display: block;
+  padding: 10px;
+}
 
 button[type=submit] {
   color: #484738;
-  background-color: #d6d92f70;
-  padding: 0 15px;
+  background-color: #99ee9191;
+  padding: 5px 10px;
   margin: 5px;
   display: block;
   font-size: medium;
+  border-radius: 20px;
 }
 
 input[type=reset] {
-  padding: 0 5px;
-  margin: 5px;
+  padding: 5px;
+
   display: block;
+  border-radius: 20px;
+  margin: 5px;
 }
 
 input:focus {
   background-color: #bdb9ae;
 }
 
-@media(max-width: 600px) {  
-  #menu, .text-center {
+
+/*----Media Queries */
+
+@media(max-width: 600px) {
+
+  #menu  {
     padding: 20px;
+    display: block;
   }
-  
+
   h1 {
     padding: 5px;
-  }    
-  
-  section {        
-    width: 80%; 
-    padding: 30px;
-    margin: 0;    
   }
+
+  section {
+    width: 80%;
+    padding: 0 30px;
+    margin: 0;
+  }
+}
