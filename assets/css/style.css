@@ -155,7 +155,7 @@ footer>p {
 */
 #photo img {
   width: 100%;
-  margin: 1em auto;
+  margin: 10px auto;
 }
 
 /* Styling the form */
@@ -217,5 +217,9 @@ input:focus {
     width: 80%;
     padding: 0 30px;
     margin: 0;
+  }
+
+  #photo {
+    column-count: 1;
   }
 }
