@@ -158,31 +158,21 @@ footer>p {
   column-gap: 10px;
 }
 
-/*
-.picture-border{
-  border: solid red 10px;
-  
-  
-}
-*/
 #photo img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   margin: 10px auto;
 }
 
 /* Styling the form */
 
 form {
-  width: 280px;
+  width: fit-content;
   padding: 20px;
-  background-color: #f5f3838f;
-  background-size: auto;
+  background-color: #f5f3838f;   
   background-position: center;
   margin: 0 auto;
 }
-
-
-
 
 .block {
   display: block;
@@ -233,5 +223,13 @@ input:focus {
 
   #photo {
     column-count: 1;
+  }
+}
+
+/* For small screens sizes from 800px wide and down */
+
+@media screen and (max-width: 800px){
+  #photo{
+      column-count: 2;
   }
 }
