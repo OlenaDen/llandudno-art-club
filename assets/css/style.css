@@ -8,7 +8,7 @@ body {
   padding: 0;
   background-color: #E1F8D4;
   background: url("../images/light-lime.jpg") repeat;
-  font-size: 20px; 	
+  font-size: 20px;
   color: hsl(35, 71%, 25%);
 }
 
@@ -21,7 +21,7 @@ header {
 h1 {
   color: #d9912f;
   text-align: center;
-  font-size: 48px;  
+  font-size: 48px;
   padding-top: 10px;
   margin: 0;
 }
@@ -63,27 +63,28 @@ br~a {
   font-size: x-large;
   font-weight: bold;
   color: #d9732f;
-} 
+}
 
 /* Styling the main section */
 
 
-	
-.text-center {	
-  font-weight: bold;	
-  font-size: x-large;	
-  text-align: center;	
-  color: hsl(35, 71%, 25%);	
-  padding: 20px;	
-  
+
+.text-center {
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  color: hsl(35, 71%, 25%);
+  padding: 20px;
+}
+
+#image {
+  text-align: center;
 }
 
 #image img {
   width: 60%;
   height: auto;
-  background-position: center;
   margin: 0 auto;
-  
 }
 
 section {
@@ -98,15 +99,16 @@ h2 {
 }
 
 /* Styling 'back to top'*/
-	
-#top {	
-  position: absolute;	
-  top: 0;	
-}	
-#to-top {	
-  display: inherit;	
-  text-align: center;  	
-  text-decoration: none;	
+
+#top {
+  position: absolute;
+  top: 0;
+}
+
+#to-top {
+  display: inherit;
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Styling the map */
@@ -171,7 +173,7 @@ footer>p {
 form {
   width: fit-content;
   padding: 20px;
-  background-color: #f5f3838f;   
+  background-color: #f5f3838f;
   background-position: center;
   margin: 0 auto;
 }
@@ -207,15 +209,17 @@ input:focus {
 
 /* For small screens sizes from 800px wide and down */
 
-@media screen and (max-width: 800px){
-  #photo{
-      column-count: 2;
+@media screen and (max-width: 800px) {
+  #photo {
+    column-count: 2;
   }
 }
 
+/* For small screens sizes max-width 600px*/
+
 @media(max-width: 600px) {
 
-  #menu  {
+  #menu {
     padding: 20px;
     display: block;
   }
