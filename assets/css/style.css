@@ -80,7 +80,7 @@ br~a {
 
 #image img {
   width: 60%;
-  
+  height: auto;
   background-position: center;
   margin: 0 auto;
   
@@ -193,7 +193,6 @@ button[type=submit] {
 
 input[type=reset] {
   padding: 5px;
-
   display: block;
   border-radius: 20px;
   margin: 8px;
@@ -205,6 +204,14 @@ input:focus {
 
 
 /*----Media Queries */
+
+/* For small screens sizes from 800px wide and down */
+
+@media screen and (max-width: 800px){
+  #photo{
+      column-count: 2;
+  }
+}
 
 @media(max-width: 600px) {
 
@@ -225,13 +232,5 @@ input:focus {
 
   #photo {
     column-count: 1;
-  }
-}
-
-/* For small screens sizes from 800px wide and down */
-
-@media screen and (max-width: 800px){
-  #photo{
-      column-count: 2;
   }
 }
