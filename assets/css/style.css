@@ -79,9 +79,11 @@ br~a {
 }
 
 #image img {
-  width: 100%;
-  height: auto;
-  text-align: center;
+  width: 60%;
+  
+  background-position: center;
+  margin: 0 auto;
+  
 }
 
 section {
