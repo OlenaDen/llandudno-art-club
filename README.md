@@ -1,6 +1,6 @@
 # Llandudno Art Club
 
-Llandudno Art Club website is designed to attract people of different ages interested in art. The club is situated in Llandudno, North Wales. It offers art classes to children of different age groups as well as adults and individual lessons. The classes are held in Craig y Don community centre. 
+Llandudno Art Club website is designed to attract children and adults interested in art. The club is situated in Llandudno, North Wales. It offers art classes to children of different age groups as well as adults and individual lessons. The classes are held in Craig y Don community centre. 
 
 The club also offers various birthday party packages with an art theme (painting, drawing, sculpture, arts and crafts). Birthday parties are held either in the community centre or at the venue of the customers' choice.   
 
@@ -27,7 +27,7 @@ form.html
 
 - __Navigation Bar__
 
-  The navigation bar is fully responsive. It is split into two parts. The first part includes links for three pages: Home, Gallery and Contact which are identical and responsive on each page. The second part is included only on the Home page and links a choice of classes to their descriptions which are situated on the Home page.
+  The navigation bar is fully responsive. It is split into two parts. The first part includes links for three pages: Home, Gallery and Contact which are identical and responsive on each page. The second part is included only on the Home page and links a choice of classes to their descriptions situated on the Home page.
 
 ![Nav Bar](documentation/testing/nav-bar.jpg)
 
@@ -39,7 +39,7 @@ form.html
 
 - __Timetable Section__
 
-  - The timetable section provides the timetable for the diffrernt age art classes.
+  - The timetable section provides the timetable for all the art classes available at the club. There is aslo a brief overview of the birthday parties options. 
 
 ![Timetable](documentation/testing/classes.png)
 
@@ -72,10 +72,11 @@ form.html
 
 ### Features Left to Implement
 
+- Create a logo of the club.
 - Pricing for the classes and birthday parties will be included soon.
 - The club also has an idea for the future to sell art created by the members (children and adults) if anyone is interested.
 - Separate page for the members to log in and view photos, club members' events, blogs.
-- Make the web-site bi-lingual English/Welsh
+- Make the web-site bi-lingual English/Welsh.
 
 ## Testing
 
@@ -106,9 +107,9 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 - The content for the Home page is made up.
 
--  The building of the website was based on the learning outcome using Code Institute Programme. 
+-  The building of the website was based on the learning outcome from Code Institute Programme. 
 
-- Specific codes copied from Love Running: 
+- Part of the code copied from Love Running to style images: 
 
 ```css
 #photo {
@@ -122,7 +123,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 }
 ```
 
-- Copied from Runnable example CSS-CC-46-complete. Coders Coffeehouse Final code.
+- Part of the code copied from Runnable example CSS-CC-46-complete to style the footer. 
 
 ```css
     text-align: center;
@@ -152,8 +153,10 @@ br
 #top {
   position: absolute;
   top: 0;
+  ```
+
 - The icons in the navigation bar and the footer were taken from [Font Awesome](https://fontawesome.com/)
-```
+
 
 - Media query was copied from Love Running:
 
@@ -168,13 +171,13 @@ br
 }
 ```
 
-- Love Running README boilerplate was used for the README
+- Love Running README boilerplate was used for the README.md
 
 ### Media
 
-- The photo used on the Home page is taken from https://pixabay.com/photos/painting-pencils-paint-pens-911804/
+- The photo used on the Home page is taken from [Pixabay](https://pixabay.com/photos/painting-pencils-paint-pens-911804/).
 
-- The background image used on all three pages is taken from https://pixabay.com/illustrations/background-texture-abstract-art-6556409/. The image was modified to a slightly lighter version.
+- The background image which was slightly modified to a lighter version and used on all three pages is taken from [Pixabay] (https://pixabay.com/illustrations/background-texture-abstract-art-6556409/) 
 
 - The images used for the Gallery page are the author's family and friends' creations.
 
