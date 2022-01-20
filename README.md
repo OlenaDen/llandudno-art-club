@@ -4,7 +4,7 @@ Llandudno Art Club website is designed to attract people of different ages inter
 
 The club also offers various birthday party packages with an art theme (painting, drawing, sculpture, arts and crafts). Birthday parties are held either in the community centre or at the venue of the customers' choice.   
 
-![Responsive Mockup]()
+![Responsive Mockup](documentation/testing/ami-responsive.png)
 
 ## Wireframes
 
@@ -102,10 +102,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
 - The content for the Home page is made up.
@@ -126,7 +122,6 @@ You can break the credits section up into Content and Media, depending on what y
 }
 ```
 
-
 - Copied from Runnable example CSS-CC-46-complete. Coders Coffeehouse Final code.
 
 ```css
@@ -140,21 +135,29 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The code was copied to add br between two nav bars: [Stackoverflow](https://stackoverflow.com/questions/899252/can-you-target-br-with-css)
 
+```css
+
 br
 {   content: "A" !important;
     display: block !important;
     margin-bottom: 1.5em !important;
 }
+```
 
 - The code was copied for 'back to top' https://codepen.io/daveyjh/pen/GRMmqOO
+
+```css
 
 <a href="#top" id="back-to-top"></a> 
 #top {
   position: absolute;
   top: 0;
 - The icons in the navigation bar and the footer were taken from [Font Awesome](https://fontawesome.com/)
+```
 
 - Media query was copied from Love Running:
+
+```css
 
 /* For small screens sizes from 800px wide and down */
 @media screen and (max-width: 800px){
@@ -163,13 +166,16 @@ br
     }
 }
 }
+```
 
 - Love Running README boilerplate was used for the README
 
 ### Media
 
 - The photo used on the Home page is taken from https://pixabay.com/photos/painting-pencils-paint-pens-911804/
-- The background image used on all three pages is taken from https://pixabay.com/illustrations/background-texture-abstract-art-6556409/. The image was modified to slightly lighter version.
+
+- The background image used on all three pages is taken from https://pixabay.com/illustrations/background-texture-abstract-art-6556409/. The image was modified to a slightly lighter version.
+
 - The images used for the Gallery page are the author's family and friends' creations.
 
 
