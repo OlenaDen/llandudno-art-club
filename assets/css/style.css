@@ -138,27 +138,28 @@ iframe {
 footer {
   background-color: silver;
   height: 40px;
-  padding: 15px;
+  padding: 15px 0;
   text-align: center;
   width: 100%;
   position: fixed;
   bottom: 0;
   right: 0;
   z-index: 3;
+  
 }
 
 footer>strong {
   color: #484738;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
 footer>p {
-  display: inline-block;
+  display: inline-block;  
 }
 
 .social-media a {
   color: #484738;
-  padding-right: 20px;
+  padding: 0 10px;
 }
 
 /* Styling the gallery */
