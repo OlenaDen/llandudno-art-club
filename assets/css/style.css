@@ -1,9 +1,5 @@
-/* Styling html */
-
 html {
   scroll-behavior: smooth;
-}
-
 
 /* Styling the body */
 
@@ -57,15 +53,14 @@ a:hover {
   font-size: x-large;
 }
 
-/* Separation of primary and secondary navigation. Copied code. See README.md */
-
 #menu > div:first-child {  
   margin-bottom: 1.5em;
 }
 
 /* Secondary navigation */
 
-#menu > div:last-child a {
+#menu > div:last-child a,
+#to-top {
   font-size: x-large;
   font-weight: bold;
   color: #d9732f;
@@ -95,7 +90,7 @@ a:hover {
 
 /* Timetable section */
 
-section {
+main {
   padding: 30px 80px 40px;
   font-weight: 600;
 }
@@ -139,8 +134,7 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 3;
-  
+  z-index: 3;  
 }
 
 footer>strong {
@@ -237,7 +231,7 @@ input:focus {
     padding: 5px;
   }
 
-  section {
+  main {
     width: 80%;
     padding: 0 30px;
     margin: 0;
