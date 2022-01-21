@@ -41,11 +41,6 @@ a:hover {
   color: orange;
 }
 
-div>a {
-  color: hsl(35, 71%, 25%);
-  font-size: x-large;
-}
-
 #menu {
   text-align: center;
   font-weight: bold;
@@ -58,19 +53,19 @@ div>a {
   margin-right: 10px;
   display: inline-block;
   text-decoration: none;
+  color: hsl(35, 71%, 25%);
+  font-size: x-large;
 }
 
 /* Separation of primary and secondary navigation. Copied code. See README.md */
 
-br {
-  content: "A" !important;
-  display: block !important;
-  margin-bottom: 1.5em !important;
+#menu > div:first-child {  
+  margin-bottom: 1.5em;
 }
 
 /* Secondary navigation */
 
-br~a {
+#menu > div:last-child a {
   font-size: x-large;
   font-weight: bold;
   color: #d9732f;
