@@ -15,7 +15,7 @@ The club also offers various birthday party packages with an art theme (painting
 - As a **returning visitor** I want to be a able to check the timetable for classes. 
 
 
-## UX (briefly explain your design)
+## UX
 
 ### Colour Scheme 
 
@@ -90,15 +90,13 @@ form.html
 
   - The gallery contains the pictures of the children's and alults' art created during the lessons in the club.
 
-![Gallery]()
+![Gallery](documentation/testing/gallery-page.png)
 
 - __The Contact Page__  
 
   On the Contact page the users can submit their name and email address and select the classes in which they are interested.
 
 ![Sign Up](documentation/testing/contact.png)
-
-
 
 
 ### Features Left to Implement
@@ -109,8 +107,27 @@ form.html
 - Separate page for the members to log in and view photos, club members' events, blogs.
 - Make the web-site bi-lingual English/Welsh.
 
-## Technologies Used (explain various tech used, such as HTML, CSS, Balsamiq, TinyPNG, Gitpod, GitHub, Git, etc.)
+## Technologies Used 
 
+The following technologies were used to create the website:
+
+- HTML - HyperText Markup Language to create the structure of the website content.  
+- CSS - Cascading Style Sheet Language to provide style to the website.
+- [Balsamiq](https://balsamiq.cloud)
+- [TinyPNG](https://tinypng.com)
+- Gitpod - cloud based Integrated Developement Environment. 
+- GitHub - provider for software development to store files.
+- Git - version control system.
+- [Colour Generator](https://coolors.co/d9912f-6d4712-ffa500-484738-e1f8d4) - Colour generator for the website used for README.md.
+- [Google fonts](https://fonts.google.com/) Google fonts used throughout the website.
+- [Font awesome](https://fontawesome.com/v6.0/icons) - Icons used for navigation, footer, "back to top" 
+
+- Google Dev Tools - Development Tools to resolve issues with responsiveness and styling.
+
+- [Favicon.io](https://favicon.io/) - Favicon creator.
+
+- [Am I Responsive?](http://ami.responsivedesign.is/) - used to show the website landing page responsiveness on different devices.
+- 
 
 ## Testing
 
