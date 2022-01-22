@@ -11,10 +11,25 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Validator Testing 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+### W3C Validator
+
+The [W3C validator](https://validator.w3.org/) was used to validate the HTML on all three pages of the website. No errors or warnings were found on html pages.
+
+The [Jigsaw W3](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. All the  errors on CSS validation were related to [Font awesome]( https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css).
+
+- [Home Page HTML](documentation/testing/home-page-validation.png)
+- [Gallery Page HTML](documentation/testing/gallery-page-validation.png)
+- [Contact Page HTML](documentation/testing/form-page-validation.png)
+- [CSS](documentation/testing/css-validation-home.png)
+
+During the first validation through [Freeformater](https://www.freeformatter.com/html-validator.html) semantc errors (no H2 within sections) were highlighted. They have since been rectified.
+
+### Lighthouse results
+
+![Home page on desktop]()
+
+
+
 
 ## Unfixed Bugs
 

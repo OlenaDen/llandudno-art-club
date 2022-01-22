@@ -30,7 +30,7 @@ The club also offers various birthday party packages with an art theme (painting
 The colour palettes were created using the [Coolors](https://coolors.co/) website. 
 
 
-### Typography (explain any fonts and icon libraries used, like font-awesome and google fonts)
+### Typography 
 
 Google Fonts "Artifika" was used throughout the website. 
 
@@ -109,7 +109,7 @@ form.html
 
 ## Technologies Used 
 
-The following technologies were used to create the website:
+The following technologies were used to create and test the website:
 
 - HTML - HyperText Markup Language to create the structure of the website content.  
 - CSS - Cascading Style Sheet Language to provide style to the website.
@@ -118,16 +118,16 @@ The following technologies were used to create the website:
 - Gitpod - cloud based Integrated Developement Environment. 
 - GitHub - provider for software development to store files.
 - Git - version control system.
-- [Colour Generator](https://coolors.co/d9912f-6d4712-ffa500-484738-e1f8d4) - Colour generator for the website used for README.md.
+- [Coolors](https://coolors.co/d9912f-6d4712-ffa500-484738-e1f8d4) - Colour generator for the website used for README.md.
 - [Google fonts](https://fonts.google.com/) Google fonts used throughout the website.
 - [Font awesome](https://fontawesome.com/v6.0/icons) - Icons used for navigation, footer, "back to top" 
-
 - Google Dev Tools - Development Tools to resolve issues with responsiveness and styling.
-
 - [Favicon.io](https://favicon.io/) - Favicon creator.
-
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to show the website landing page responsiveness on different devices.
-- 
+- [README Markdownguide](https://www.markdownguide.org/cheat-sheet/) - tips for creation of README.md
+- [CSS Jigsaw](https://jigsaw.w3.org/css-validator/)
+- [HTML Vallidator](https://validator.w3.org/)
+- [Squoosh](https://squoosh.app/) - Image compressor.
 
 ## Testing
 
@@ -164,10 +164,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 - The favicon in the browser was taken from [Favicon](https://favicon.io/favicon-generator/)
 
-- The colour palettes for README.md were created using the [Coolors](https://coolors.co/) website. 
-
-
-- Part of the code copied from Love Running to style images: 
+- Part of the code was copied from Love Running to style images: 
 
 ```css
 #photo {
@@ -192,7 +189,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
     z-index: 3;
 ```
 
-- The 'back to top' code was copied for from [Dave Horrocks] (https://codepen.io/daveyjh/pen/GRMmqOO)
+- The 'back to top' code was copied for from [Dave Horrocks](https://codepen.io/daveyjh/pen/GRMmqOO)
 
 ```css
 
@@ -214,6 +211,13 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 }
 }
 ```
+Copied from Code Institute for the Contact page:
+
+```html
+
+ <form action="https://formdump.codeinstitute.net" method="POST">
+   ```
+
 
 - Love Running README boilerplate was used for the README.md
 
@@ -221,18 +225,20 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 - The photo used on the Home page is taken from [Pixabay](https://pixabay.com/photos/painting-pencils-paint-pens-911804/).
 
-- The background image which was slightly modified to a lighter version and used on all three pages is taken from [Pixabay] (https://pixabay.com/illustrations/background-texture-abstract-art-6556409/) 
+- The background image which was slightly modified to a lighter version and used on all three pages is taken from [Pixabay](https://pixabay.com/illustrations/background-texture-abstract-art-6556409/) 
 
 - The images used for the Gallery page are the developer's family and friends' creations.
 
 ### Acknowledgements
 
-I would like to acknowledge the following people in helping me create the website:
+I would like to acknowledge the following people in helping me to create the website:
 
-1. Tim Nelson, my mentor for guiding me and helping me throughout the project.
-2. All the people in slack who took time and replied to my questions and to other people's messages which I found useful to read.
+1. Tim Nelson, my mentor, for guiding me and helping me throughout the project, especially making me comfortable using gitpod and giving me handy tips.
+2. All the people in slack who took time and replied to my questions and to other people's messages which I found very useful to read.
 3. Dave Horrocks, for helping me to understand DevTools better and explaining the semantics of html.
 4. Suzy Bennett, for taking her time to look at the Lighthouse results in DevTools.
 5. My friends who let me use their art creations.
-5. Sydney Clarke, my friend, who edited the content of the website and part of the README.md.
+6. Sydney Clarke, my friend, who edited the content of the website and part of README.md.
+
+
 
