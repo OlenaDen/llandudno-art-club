@@ -36,9 +36,12 @@ h1 {
 
 /* Styling the navigation */
 
-a:hover {
+#menu a:hover {
   text-decoration: none;
   color: #ffa500;
+}
+#menu > div:last-child a:hover {
+  color: hsl(35, 71%, 25%);
 }
 
 #menu {
@@ -109,7 +112,7 @@ h2 {
 
 /* Styling 'back to top' Copied code. See README.md*/
 
-#top {
+#top { 
   position: absolute;  
   top: 0;
 }
