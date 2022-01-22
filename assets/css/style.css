@@ -168,10 +168,13 @@ footer>p {
 
 /* Styling the gallery */
 
-.art {
+section .art {
   text-align: center;
 }
 
+#photo section:first-child .art {
+  text-align: center;
+}
 /* Copied parts of code. See README.md */
 
 #photo {
@@ -189,17 +192,31 @@ footer>p {
 
 /* Styling the form */
 
+section .contact {
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  color: #d9912f;
+  font-family: inherit;
+  font-size: 20px;}
+
+
 form {
   width: fit-content;
   padding: 20px;
   background-color: #f5f383;
   background-position: center;
   margin: 0 auto;
+  border-radius: 20px;  
 }
 
 .block {
   display: block;
   padding: 10px;
+}
+
+fieldset {
+  display: block;
 }
 
 .required:after {
