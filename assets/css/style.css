@@ -170,6 +170,7 @@ footer>p {
 
 section .art {
   text-align: center;
+  text-decoration: none;
 }
 
 #photo section:first-child .art {
