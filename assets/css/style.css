@@ -1,16 +1,15 @@
 /* Styling html */
 
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
 
-
 /* Styling the body */
 
-@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
-
 body {
-  font-family: 'Artifika', Helvetica, sans-serif;
+  font-family: 'Artifika', Helvetica, serif;
   margin: 0;
   padding: 0;
   background-color: #E1F8D4;
@@ -22,12 +21,12 @@ body {
 /* Styling the header */
 
 header {
-  background-color: #99ee9191;
+  background-color: #99ee91;
   background: cover;
 }
 
 h1 {
-  color: #d9912f;
+  color: #ffa500;
   text-align: center;
   font-size: 48px;
   padding-top: 10px;
@@ -35,14 +34,6 @@ h1 {
 }
 
 /* Styling the navigation */
-
-#menu a:hover {
-  text-decoration: none;
-  color: #ffa500;
-}
-#menu > div:last-child a:hover {
-  color: hsl(35, 71%, 25%);
-}
 
 #menu {
   text-align: center;
@@ -60,7 +51,15 @@ h1 {
   font-size: x-large;
 }
 
-/* Separation of primary and secondary navigation. Copied code. See README.md */
+/* Primary navigation */
+
+#menu a:hover {
+  text-decoration: none;
+  color: #ffa500;}
+
+
+  /* Secondary navigation */
+  
 
 #menu > div:first-child {  
   margin-bottom: 1.5em;
@@ -72,6 +71,10 @@ h1 {
   font-size: x-large;
   font-weight: bold;
   color: #d9732f;
+}
+
+#menu > div:last-child a:hover {
+  color: hsl(35, 71%, 25%);
 }
 
 /* Styling the main section */
@@ -121,7 +124,8 @@ h2 {
   display: inherit;
   text-align: center;
   text-decoration: none;
-  color: #d9732f;
+  color: #d9912f;
+  font: x-large;
 }
 
 /* Styling the map */
@@ -136,7 +140,7 @@ iframe {
 /* Styling the footer. Copied part of the code. See README.md */
 
 footer {
-  background-color: silver;
+  background-color: #c0c0c0;
   height: 40px;
   padding: 15px 0;
   text-align: center;
@@ -188,7 +192,7 @@ footer>p {
 form {
   width: fit-content;
   padding: 20px;
-  background-color: #f5f3838f;
+  background-color: #f5f383;
   background-position: center;
   margin: 0 auto;
 }
@@ -200,7 +204,7 @@ form {
 
 .required:after {
   content:" *";
-  color: rgb(241, 135, 149);
+  color: rgb(206, 43, 43);
 }
 
 button[type=submit] {
