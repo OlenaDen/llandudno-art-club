@@ -22,7 +22,7 @@ body {
 
 header {
   background-color: #99ee91;
-  background: cover;
+  background-size: cover;
 }
 
 h1 {
