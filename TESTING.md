@@ -39,9 +39,9 @@ The [Jigsaw W3](https://jigsaw.w3.org/css-validator/) was used to validate CSS c
 
 ### The Lighthouse Results
 
-- The Lighthouse results of the Performance score on the Gallery page for desktops in Chrome are not consistent. When they are low the problem is the size of the images which were already compressed several times. 
+- The Lighthouse results of the Performance score on the Gallery page for the desktops in Chrome are not consistent. I have included the best results. Sometimes the Performance results shows low score. The problem is the size of the images which were already compressed several times. 
 
-- To further improve the score of the Performance on the Lighthouse for the Gallery page on desktop a link was added in the head of html which seemed to have helped but then different low results were shown again. 
+- To further improve the score of the Performance on the Lighthouse for the Gallery page on desktops a link was added in the head of html which seemed to have helped at first but then different low results were shown again. 
 
 ```html
 <link rel="preload" as="style" href="assets/css/style.css"> 
@@ -49,7 +49,7 @@ The [Jigsaw W3](https://jigsaw.w3.org/css-validator/) was used to validate CSS c
 
 ### Browser Compatability Bugs
 
-The only problem with browser compatability I have noticed is the Contact page on Yandex: the form is too wide.
+The only problem with the browser compatability I have noticed is the Contact page on Yandex: the form is too wide.
 
 ![Yandex](documentation/testing/yandex-desktop-form.png)
 
