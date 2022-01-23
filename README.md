@@ -213,7 +213,6 @@ footer {
         column-count: 2;
     }
 }
-}
 ```
 Copied from Code Institute for the Contact page:
 
