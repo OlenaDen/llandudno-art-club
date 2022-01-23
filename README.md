@@ -56,32 +56,32 @@ form.html
 
 - __The landing page image__
 
-  - The landing page offers the choice of art classes available at the Llandudno Art Club.
+  The landing page offers a choice of art classes available at the Llandudno Art Club.
 
 ![Landing Page](documentation/testing/landing-page.jpg)
 
 - __Timetable Section__
 
-  - The timetable section provides the timetable for all the art classes available at the club. There is also a brief overview of the birthday parties options. 
+  The timetable section provides the timetable for all the art classes available at the club. There is also a brief overview of the birthday parties options. 
 
 ![Timetable](documentation/testing/classes.png)
 
 - __Map section__
 
-  - This section shows the users the location of the community centre where the classes take place. 
+  This section shows the users the location of the community centre where the classes take place. 
 
   
 ![Timetable](documentation/testing/map.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for the Art Club. The links will open to a new tab to allow easy navigation for the user. 
+  The footer section includes links to the relevant social media sites for the Art Club. The links will open to a new tab to allow easy navigation for the user. 
   
 ![Footer](documentation/testing/footer.png)
 
 - __Gallery__
 
-  - The gallery contains the pictures of the children's and alults' art created during the lessons in the club.
+  The gallery contains the pictures of the children's and alults' art created during the lessons in the club.
 
 ![Gallery](documentation/testing/gallery-page.png)
 
@@ -102,7 +102,7 @@ form.html
 
 ## Technologies Used 
 
-The following technologies were used to create and test the website:
+### The following technologies were used to create and test the website:
 
 - HTML - HyperText Markup Language to create the structure of the website content.  
 - CSS - Cascading Style Sheet Language to provide style to the website.
@@ -122,6 +122,8 @@ The following technologies were used to create and test the website:
 - [HTML Vallidator](https://validator.w3.org/) - to validate HTML code.
 - [Squoosh](https://squoosh.app/) - to compresse images.
 - [LiveBrowserStack](https://live.browserstack.com/) - to check the compatability of website.
+- [Pixabay](https://pixabay.com/) - to provide open source images.
+- [Freeformatter](https://www.freeformatter.com/) - to validate HTML code.
 
 ## Testing
 
@@ -182,7 +184,7 @@ footer {
     bottom: 0;
     right: 0;
     z-index: 3;
-]
+}
 ```
 
 - The 'back to top' code was copied for from [Dave Horrocks](https://codepen.io/daveyjh/pen/GRMmqOO):
@@ -193,6 +195,7 @@ footer {
 #top {
   position: absolute;
   top: 0;
+}
   ```
 
 - Copied code for the Contact form from  [Stackoverflow](https://stackoverflow.com/questions/11197671/use-css-to-automatically-add-required-field-asterisk-to-form-inputs):
@@ -236,8 +239,8 @@ Copied from Code Institute for the Contact page:
 
 I would like to acknowledge the following people in helping me to create the website:
 
-1. Tim Nelson, my mentor, for guiding me and helping me throughout the project, especially making me feel comfortable using gitpod and giving me very handy tips.
+1. Tim Nelson, my wonderful mentor, for guiding me and helping me throughout the project, especially making me feel comfortable using gitpod and giving me very handy tips.
 2. All the people in slack who took time and replied to my questions and to other people's messages which I found very useful to read.
-3. Dave Horrocks, for helping me to understand DevTools better and explaining the semantics of html in more detail.
-4. Suzy Bennett, for taking her time to look at the Lighthouse results in DevTools in regard to images.
+3. Dave Horrocks, student at Code Institute, for helping me to understand DevTools better and explaining the semantics of html in more detail.
+4. Suzy Bennett, student at Code Institute, for taking her time to look at the Lighthouse results in DevTools in regard to images.
 5. My friends who let me use their art creations.
