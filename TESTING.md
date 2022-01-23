@@ -75,7 +75,7 @@ The only problem with browser compatability I have noticed is the Contact page o
 
 ### Opera
 
-![Opera]documentation/testing/opera-desktop.png()
+![Opera](documentation/testing/opera-desktop.png)
 
 ### Firefox
 
