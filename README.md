@@ -128,6 +128,7 @@ The following technologies were used to create and test the website:
 - [CSS Jigsaw](https://jigsaw.w3.org/css-validator/)
 - [HTML Vallidator](https://validator.w3.org/)
 - [Squoosh](https://squoosh.app/) - Image compressor.
+- [LiveBrowserStack](https://live.browserstack.com/) - to check the compatability of website.
 
 ## Testing
 
