@@ -2,8 +2,6 @@
 
 Llandudno Art Club website is designed to attract children and adults who are interested in art. The club is located in Llandudno, North Wales. It offers art classes to children of different age groups as well as adults and individual lessons. The classes are held in Craig y Don community centre. 
 
-Introducing potential members to the facilities and courses available at the club and offering a variety of art classes for children of different age groups, in addition to adult lessons and individual tuition.
-
 The club also offers various birthday party packages with an art theme (painting, drawing, sculpture, arts and crafts). Birthday parties are held either in the community centre or at the venue of the customers' choice.   
 
 ![Responsive Mockup](documentation/testing/ami-responsive.png)
@@ -13,7 +11,6 @@ The club also offers various birthday party packages with an art theme (painting
 - As a **first time visitor** I want to be able to find information about art casses available in Llandudno. I also want to know if there is a possibility of organising a birthday party with an art theme.
 
 - As a **returning visitor** I want to be a able to check the timetable for classes. 
-
 
 ## UX
 
@@ -27,13 +24,11 @@ The club also offers various birthday party packages with an art theme (painting
 
 ![Llandudno Art Club text colours](documentation/testing/text-colours.png)
 
-The colour palettes were created using the [Coolors](https://coolors.co/) website. 
-
+The colour palettes were created using the [Coolors](https://coolors.co/) website.
 
 ### Typography 
 
-Google Fonts "Artifika" was used throughout the website. 
-
+[Google fonts](https://fonts.google.com/) font-family "Artifika" was used throughout the website. 
 
 ## Wireframes
 
@@ -49,7 +44,6 @@ form.html
 
 ![Index Wireframe](documentation/wireframes/contact-page.png)
 
-
 ## Features 
 
 ### Existing Features
@@ -62,7 +56,7 @@ form.html
 
 - __The landing page image__
 
-  - The landing page offers the choice of art classes available at the Llandudno Club.
+  - The landing page offers the choice of art classes available at the Llandudno Art Club.
 
 ![Landing Page](documentation/testing/landing-page.jpg)
 
@@ -83,7 +77,6 @@ form.html
 
   - The footer section includes links to the relevant social media sites for the Art Club. The links will open to a new tab to allow easy navigation for the user. 
   
-
 ![Footer](documentation/testing/footer.png)
 
 - __Gallery__
@@ -113,10 +106,10 @@ The following technologies were used to create and test the website:
 
 - HTML - HyperText Markup Language to create the structure of the website content.  
 - CSS - Cascading Style Sheet Language to provide style to the website.
-- [Balsamiq](https://balsamiq.cloud)
-- [TinyPNG](https://tinypng.com)
+- [Balsamiq](https://balsamiq.cloud) to create wireframes.
+- [TinyPNG](https://tinypng.com) - to compress images.
 - Gitpod - cloud based Integrated Developement Environment. 
-- GitHub - provider for software development to store files.
+- GitHub - to provide software development to store files.
 - Git - version control system.
 - [Coolors](https://coolors.co/d9912f-6d4712-ffa500-484738-e1f8d4) - Colour generator for the website used for README.md.
 - [Google fonts](https://fonts.google.com/) Google fonts used throughout the website.
@@ -125,8 +118,8 @@ The following technologies were used to create and test the website:
 - [Favicon.io](https://favicon.io/) - Favicon creator.
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to show the website landing page responsiveness on different devices.
 - [README Markdownguide](https://www.markdownguide.org/cheat-sheet/) - tips for creation of README.md
-- [CSS Jigsaw](https://jigsaw.w3.org/css-validator/)
-- [HTML Vallidator](https://validator.w3.org/)
+- [CSS Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS code validator.
+- [HTML Vallidator](https://validator.w3.org/) - HTML validator.
 - [Squoosh](https://squoosh.app/) - Image compressor.
 - [LiveBrowserStack](https://live.browserstack.com/) - to check the compatability of website.
 
@@ -182,12 +175,14 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - Part of the code copied from Runnable example CSS-CC-46-complete to style the footer. 
 
 ```css
+footer {
     text-align: center;
     width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
     z-index: 3;
+]
 ```
 
 - The 'back to top' code was copied for from [Dave Horrocks](https://codepen.io/daveyjh/pen/GRMmqOO)
@@ -236,10 +231,10 @@ I would like to acknowledge the following people in helping me to create the web
 
 1. Tim Nelson, my mentor, for guiding me and helping me throughout the project, especially making me comfortable using gitpod and giving me handy tips.
 2. All the people in slack who took time and replied to my questions and to other people's messages which I found very useful to read.
-3. Dave Horrocks, for helping me to understand DevTools better and explaining the semantics of html.
-4. Suzy Bennett, for taking her time to look at the Lighthouse results in DevTools.
+3. Dave Horrocks, for helping me to understand DevTools better and explaining the semantics of html in more detail.
+4. Suzy Bennett, for taking her time to look at the Lighthouse results in DevTools in regard to images.
 5. My friends who let me use their art creations.
-6. Sydney Clarke, my friend, who edited the content of the website and part of README.md.
+
 
 
 
