@@ -26,9 +26,17 @@ During the first validation through [Freeformater](https://www.freeformatter.com
 
 ### Lighthouse results
 
-![Home page on desktop]()
+## Mobile devices
 
+![Home page](documentation/testing/home-mobile-lighthouse.png)
+![Gallery](documentation/testing/gallery-mobile-lighthouse.png)
+![Contact](documentation/testing/form-mobile-lighthouse.png)
 
+## Desktop
+
+![Home page](documentation/testing/home-desktop-lighthouse.png)
+![Gallery](documentation/testing/gallery-desktop-lighthouse.png)
+![Contact](documentation/testing/form-desktop-lighthouse.png)
 
 
 ## Unfixed Bugs
