@@ -195,7 +195,7 @@ footer {
   top: 0;
   ```
 
-- Copied code for the form from  [Stackoverflow](https://stackoverflow.com/questions/11197671/use-css-to-automatically-add-required-field-asterisk-to-form-inputs):
+- Copied code for the Contact form from  [Stackoverflow](https://stackoverflow.com/questions/11197671/use-css-to-automatically-add-required-field-asterisk-to-form-inputs):
 ```css
 .required:after {
     content:" *";

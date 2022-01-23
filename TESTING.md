@@ -15,8 +15,6 @@ The [Jigsaw W3](https://jigsaw.w3.org/css-validator/) was used to validate CSS c
 - [Contact Page HTML](documentation/testing/form-page-validation.png)
 - [CSS](documentation/testing/css-validation-home.png)
 
-During the first validation through [Freeformater](https://www.freeformatter.com/html-validator.html) semantic errors (no h2 within sections) were highlighted. They have since been rectified.
-
 ### Lighthouse Results
 
 #### Mobile Devices
@@ -31,12 +29,27 @@ During the first validation through [Freeformater](https://www.freeformatter.com
 ![Gallery](documentation/testing/gallery-desktop-lighthouse.png)
 ![Contact](documentation/testing/form-desktop-lighthouse.png)
 
+## Fixed Bugs
+
+- During the first validation through [Freeformater](https://www.freeformatter.com/html-validator.html) semantic errors were highlighted on the Gallery page and the Contact page (there were no headings within the sections). They have since been rectified.
+
+- During the first validation through [Freeformater](https://www.freeformatter.com/html-validator.html) errors were highlighted on the Home page in regard to the map. After deleting payload="lazy" validation showed no problems.
 
 ## Unfixed Bugs
 
-- The Lighthouse results of the Performance score are not consistent. When they are low the problem is the size of the images which were already compressed several timeas. 
+### The Lighthouse Results
 
-- The only problem with browser compatability I have noticed is the Contact page on Yandex: the form is too wide.
+- The Lighthouse results of the Performance score on the Gallery page for desktops in Chrome are not consistent. When they are low the problem is the size of the images which were already compressed several times. 
+
+- To further improve the score of the Performance on the Lighthouse for the Gallery page on desktop a link was added in the head of html which seemed to have helped but then different low results were shown again. 
+
+```html
+<link rel="preload" as="style" href="assets/css/style.css"> 
+```
+
+### Browser Compatability Bugs
+
+The only problem with browser compatability I have noticed is the Contact page on Yandex: the form is too wide.
 
 ![Yandex](documentation/testing/yandex-desktop-form.png)
 
@@ -50,11 +63,11 @@ During the first validation through [Freeformater](https://www.freeformatter.com
 
 ![Tablet](documentation/testing/edge-tablet.png)
 
-### On the desktop
+### On the Desktop
 
 ![Desktop](documentation/testing/opera-desktop.png)
 
-## Browser compatability
+## Browser Compatability
 
 ### Safari
 
@@ -75,3 +88,7 @@ During the first validation through [Freeformater](https://www.freeformatter.com
 ### Edge
 
 ![Edge](documentation/testing/edge-tablet.png)
+
+
+
+
