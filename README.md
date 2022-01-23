@@ -1,10 +1,12 @@
 # Llandudno Art Club
 
-Llandudno Art Club website is designed to attract children and adults who are interested in art. The club is located in Llandudno, North Wales. It offers art classes to children of different age groups as well as adults and individual lessons. The classes are held in Craig y Don community centre. 
+Llandudno Art Club website is designed to attract children and adults who are interested in art. The club is located in Llandudno, North Wales. It provides art classes to children of different age groups as well as adults and individual lessons. The classes are held in Craig y Don community centre. 
 
 The club also offers various birthday party packages with an art theme (painting, drawing, sculpture, arts and crafts). Birthday parties are held either in the community centre or at the venue of the customers' choice.   
 
 ![Responsive Mockup](documentation/testing/ami-responsive.png)
+
+[View Llandudno Art Club](https://olenaden.github.io/llandudno-art-club/index.html)
 
 ## User Stories
 
@@ -108,19 +110,19 @@ The following technologies were used to create and test the website:
 - CSS - Cascading Style Sheet Language to provide style to the website.
 - [Balsamiq](https://balsamiq.cloud) to create wireframes.
 - [TinyPNG](https://tinypng.com) - to compress images.
-- Gitpod - cloud based Integrated Developement Environment. 
+- Gitpod - to create cloud based Integrated Developement Environment. 
 - GitHub - to provide software development to store files.
-- Git - version control system.
-- [Coolors](https://coolors.co/d9912f-6d4712-ffa500-484738-e1f8d4) - Colour generator for the website used for README.md.
-- [Google fonts](https://fonts.google.com/) Google fonts used throughout the website.
-- [Font awesome](https://fontawesome.com/v6.0/icons) - Icons used for navigation, footer, "back to top" 
+- Git - to do version control system.
+- [Coolors](https://coolors.co/d9912f-6d4712-ffa500-484738-e1f8d4) - to generate colour-palette of the website to use in README.md.
+- [Google fonts](https://fonts.google.com/) to use font Artifika throughout the website.
+- [Font awesome](https://fontawesome.com/v6.0/icons) - to input icons used for navigation, footer, "back to top" 
 - Google Dev Tools - Development Tools to resolve issues with responsiveness and styling.
-- [Favicon.io](https://favicon.io/) - Favicon creator.
-- [Am I Responsive?](http://ami.responsivedesign.is/) - used to show the website landing page responsiveness on different devices.
-- [README Markdownguide](https://www.markdownguide.org/cheat-sheet/) - tips for creation of README.md
-- [CSS Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS code validator.
-- [HTML Vallidator](https://validator.w3.org/) - HTML validator.
-- [Squoosh](https://squoosh.app/) - Image compressor.
+- [Favicon.io](https://favicon.io/) - to create Favicon.
+- [Am I Responsive?](http://ami.responsivedesign.is/) - to show the website landing page responsiveness on different devices.
+- [README Markdownguide](https://www.markdownguide.org/cheat-sheet/) - to use tips for creation of README.md
+- [CSS Jigsaw](https://jigsaw.w3.org/css-validator/) - to validate CSS code.
+- [HTML Vallidator](https://validator.w3.org/) - to validate HTML code.
+- [Squoosh](https://squoosh.app/) - to compresse images.
 - [LiveBrowserStack](https://live.browserstack.com/) - to check the compatability of website.
 
 ## Testing
@@ -229,12 +231,8 @@ Copied from Code Institute for the Contact page:
 
 I would like to acknowledge the following people in helping me to create the website:
 
-1. Tim Nelson, my mentor, for guiding me and helping me throughout the project, especially making me comfortable using gitpod and giving me handy tips.
+1. Tim Nelson, my mentor, for guiding me and helping me throughout the project, especially making me feel comfortable using gitpod and giving me very handy tips.
 2. All the people in slack who took time and replied to my questions and to other people's messages which I found very useful to read.
 3. Dave Horrocks, for helping me to understand DevTools better and explaining the semantics of html in more detail.
 4. Suzy Bennett, for taking her time to look at the Lighthouse results in DevTools in regard to images.
 5. My friends who let me use their art creations.
-
-
-
-
