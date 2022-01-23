@@ -10,7 +10,7 @@ The club also offers various birthday party packages with an art theme (painting
 
 ## User Stories
 
-- As a **first time visitor** I want to be able to find information about art casses available in Llandudno. I also want to know if there is a possibility of organising a birthday party with an art theme.
+- As a **first time visitor** I want to be able to find information about art casses available in Llandudno. I also want to know if there is a possibility of booking a birthday party with an art theme.
 
 - As a **returning visitor** I want to be a able to check the timetable for classes. 
 
@@ -25,8 +25,6 @@ The club also offers various birthday party packages with an art theme (painting
 - The colours of the font are mostly shades of orange and brown.
 
 ![Llandudno Art Club text colours](documentation/testing/text-colours.png)
-
-The colour palettes were created using the [Coolors](https://coolors.co/) website.
 
 ### Typography 
 
@@ -113,7 +111,7 @@ The following technologies were used to create and test the website:
 - Gitpod - to create cloud based Integrated Developement Environment. 
 - GitHub - to provide software development to store files.
 - Git - to do version control system.
-- [Coolors](https://coolors.co/d9912f-6d4712-ffa500-484738-e1f8d4) - to generate colour-palette of the website to use in README.md.
+- [Coolors](https://coolors.co/d9912f-6d4712-ffa500-484738-e1f8d4) - to generate colour palettes of the website to use in README.md.
 - [Google fonts](https://fonts.google.com/) to use font Artifika throughout the website.
 - [Font awesome](https://fontawesome.com/v6.0/icons) - to input icons used for navigation, footer, "back to top" 
 - Google Dev Tools - Development Tools to resolve issues with responsiveness and styling.
@@ -174,7 +172,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 }
 ```
 
-- Part of the code copied from Runnable example CSS-CC-46-complete to style the footer. 
+- Part of the code copied from Runnable example CSS-CC-46-complete to style the footer:
 
 ```css
 footer {
@@ -187,7 +185,7 @@ footer {
 ]
 ```
 
-- The 'back to top' code was copied for from [Dave Horrocks](https://codepen.io/daveyjh/pen/GRMmqOO)
+- The 'back to top' code was copied for from [Dave Horrocks](https://codepen.io/daveyjh/pen/GRMmqOO):
 
 ```css
 
@@ -196,6 +194,14 @@ footer {
   position: absolute;
   top: 0;
   ```
+
+- Copied code for the form from  [Stackoverflow](https://stackoverflow.com/questions/11197671/use-css-to-automatically-add-required-field-asterisk-to-form-inputs):
+```css
+.required:after {
+    content:" *";
+    color: red;
+```
+
 
 - Media query was copied from Love Running:
 
@@ -217,7 +223,7 @@ Copied from Code Institute for the Contact page:
    ```
 
 
-- Love Running README boilerplate was used for the README.md
+- Love Running README boilerplate was used for README.md
 
 ### Media
 
